@@ -1,0 +1,24 @@
+{
+	"FileVersion" : 3,
+	
+	"FriendlyName" : "Augmented Reality plugin",
+	"Version" : 1,
+	"VersionName" : "1.10",
+	"CreatedBy" : "Adam Horvath",
+	"CreatedByURL" : "http://www.unreal4ar.com",
+	"Description" : "Augmented reality plugin based on the ARToolkit framework.",
+	"Category" : "Augmented Reality",
+	"EnabledByDefault" : true,
+	
+	
+	"Modules" :
+	[
+		{
+			"Name" : "ARToolkitPlugin",
+			"Type" : "Runtime",
+			"LoadingPhase" : "Default",
+            "WhitelistPlatforms" : [ "Android","Win64","Mac", "IOS"]
+
+		}
+	]
+}
